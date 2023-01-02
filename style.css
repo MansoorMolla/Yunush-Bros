@@ -1,0 +1,164 @@
+*{
+margin:0px;
+padding:0px;
+font-family:'Noto serif Display', serif;
+
+}
+
+
+body
+{
+}
+
+.topheader{
+    height:20px;
+    background-color:grey;
+    font-size:15px;
+    color:white;
+    padding:8px;
+}
+
+.header{
+    height:100px;
+    background-color: white;
+    font-size: 22px;
+    border: 1px solid grey;
+}
+
+
+.row{
+    width:100%;
+    padding: 10px;
+}
+
+.header img{
+    width:80px;
+    height:80px;
+}
+
+
+.menubar{
+    height:40px;
+    background-color:lightgrey;
+    font-size:22px;
+}
+
+
+.bodypart{
+    height:auto;
+    font-size: 22px;
+}
+
+.footer{
+    height: 250px;
+    background-color: black;
+    color: white;
+    padding: 10px;
+}
+
+.left{
+float:left;
+}
+
+.right{
+float:right;
+}
+
+.hpart1{
+    width:5%;float:left;
+}
+
+.hpart2{
+    width:50%;float:left;font-size: 70px;color: green;
+}
+
+.login{
+
+    text-decoration: none;
+    color:white;
+}
+
+
+.hpart3{
+    width: 100px;float:right;padding:20px;
+    background-color: green;
+    text-align: center;
+    padding: 10px;
+    margin-right: 100px;
+    margin-top:20px;
+   
+    border-radius:10px;
+}
+
+.hpart3:hover{
+    background-color:red;
+}
+
+
+.menubar ul{
+    width:100%;
+    list-style-type:none;
+}
+
+.menubar ul li{
+    float: left;
+    margin:5px 80px;
+}
+
+.menubar ul li a{
+   text-decoration:none;
+   color: black;
+   font-size:18px;
+   padding:10px;
+   font-weight:bold;
+   font-family:'Arial';
+}
+
+.menubar ul li a:hover{
+    background-color: red;
+    color:yellow;
+}
+
+.sectitle
+{
+    text-align:center;
+    color:red;
+    font-weight:none;
+
+
+}
+
+.courses{
+    width:80%;
+    margin:0 auto auto;
+}
+
+.coursediv{
+    width:20%;
+    border:1px solid lightgrey;
+    box-shadow:3px 6px red;
+    height:180px;
+    border-radius:10px;
+    float:left;
+    margin:15px 10px;
+}
+
+.coursediv img{
+    width:100%;
+    border-radius:10px;
+}
+
+
+
+.coursediv a{
+    text-decoration:none;
+    font-size:30px;
+    color: black;
+    padding:30px;
+}
+
+.loginform{
+    width:30%;
+    margin:0 auto auto;
+
+}

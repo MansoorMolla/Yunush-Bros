@@ -1,0 +1,115 @@
+<html>
+<head>
+    <link rel="stylesheet" href="style.css"/>  
+<title> SIGN IN YOUR ACCOUNT </title>
+<script type="text/javascript">
+function check()
+{
+    var uname=document.getElementById("uname").value;
+    var pw=document.getElementById("pw").value;
+
+    if(uname=='mansoor' && pw=='mansoor123')
+    {
+       
+        document.getElementById("form1").action="logout.html";
+        window.alert("Hi Welcome To Yunush-Bros ");
+
+    }
+    else
+    {
+        document.getElementById("err").innerHTML="Username or Password is incorrect ";
+        return false;
+    }
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+</script>
+
+<body>
+<div class="topheader">
+<div class="left">yunushbroshelpdesk@gmail.com</div>
+<div class="right"></div>
+
+ 
+
+</div>
+<div class="header">
+<div class="row">
+<div class="hpart1" ><img src="images/logo.png"></div>
+<div class="hpart2" >Yunush-Bros</div>
+</div>
+
+
+
+
+
+
+</div>
+<div class="menubar">
+    <ul>
+        <li><a href="index.html">Home</a> </li>
+        <li><a href="signup.html">Sign Up</a></li>
+       
+    </ul>
+</div>
+<h1 class="sectitle">Login Form</h1>
+<br/>
+<!DOCTYPE html>
+<html>
+<head>
+<title> Please Register With your Details </title>
+</head>
+<body>
+<form id="form1" class="loginform"  onsubmit="return check()">
+User Name
+<input type ="text" id ="uname" style="margin-left:28px;" />
+<br> </br>
+ Password
+<input type="password" id ="pw" style="margin-left:40px;" />
+<br> </br>
+<br>
+<button type="submit"  style="margin-left:150px;" style="color: blue;"> Login </button>
+</form>
+<br/>
+<div id="err" style="color:red;text-align:center">
+
+</div>
+</body>
+</html>
+
+
+<br/>
+<hr/>
+<br/>
+<h1 class="sectitle" id="aboutus"> Contact Us </h1>
+<br/>
+
+<div class="footer">    
+    <br/>
+    Have an issue with your purchase?
+    <br/> <br/> <br/>
+    Call us on : 9963800124
+    <br/>
+    7:00 AM to 9:00 PM, 365 days
+    <br/> <br/>
+    Reach us : Parumanchala(V),Peta Street,Near Bus Stop
+    Yunush-Bros General store-518401
+    <br/> <br/>
+    Company website : click <a href="https://younus-brothers.business.site/"> here </a> to navigate to website
+    <br/>
+   
+</div>
+</body>
+</html>
